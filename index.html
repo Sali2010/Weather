@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>WEATHER</title>
+</head>
+
+<body id="particles-js">
+
+
+
+<!-- <div>
+    <h5 class=" pt-2 top-0 text-center text-white" style="font-family: Poppins-Regular, sans-serif;"> design by </h5>
+    <a class="d-flex justify-content-center" href="https://instagram.com/salar81.s?utm_medium=copy_link" target="blank" style="font-size: 1.2rem; font-weight: 500;"></i>Sali</a>
+
+</div> -->
+
+    <div id="page" class="container-contact100">
+        <div class="img d-flex" >
+            <img  src="./images/fluent_weather-hail-night-20-filled.svg" alt="">
+            <img  src="./images/fluent_weather-partly-cloudy-day-48-filled.svg" alt="">
+            <img  src="./images/fluent_weather-cloudy-48-filled.svg" alt="">
+            <img  src="./images/fluent_weather-partly-cloudy-night-20-filled (1).svg" alt="">
+            <img  src="./images/fluent_weather-hail-day-48-filled.svg" alt="">
+        </div>
+
+
+        <div class=" wrap-contact100">
+            <form class="contact100-form validate-form">
+                <span class="pt-3 contact100-form-title">
+                    Weather of your city
+                </span>
+
+                <div class="wrap-input100 validate-input" data-validate="Name is required">
+                    <span class="label-input100">City name</span>
+                    <input id="cityname" class="input100" type="text" placeholder="Enter your city name">
+                    <span class="focus-input100"></span>
+                </div>
+
+
+                <div class="container-contact100-form-btn">
+                    <div class="wrap-contact100-form-btn">
+                        <div class="contact100-form-bgbtn"></div>
+                        <button id="btn" class="contact100-form-btn">
+                            <span>
+                                Search
+                                <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+          
+          <div id="spinner" class="mt-1 mb-1 d-flex justify-content-center spinner-border text-light" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+        
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script src="./index.js"></script>
+
+</body>
+
+</html>
