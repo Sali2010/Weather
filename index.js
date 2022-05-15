@@ -10,7 +10,7 @@ function getApi() {
     spinner.style.opacity = '100%'
 
 
-    axios.get(`http://api.weatherapi.com/v1/current.json?key=4ba7a0c3e0514b7d963173930222204&q=${cityName.value}&aqi=no`).then((res) => {
+    axios.get(`https://api.weatherapi.com/v1/current.json?key=4ba7a0c3e0514b7d963173930222204&q=${cityName.value}&aqi=no`).then((res) => {
         // if (status === 200) {
         //     console.log(res);
         //     const card = document.createElement('div')
